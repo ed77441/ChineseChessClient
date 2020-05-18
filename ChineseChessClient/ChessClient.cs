@@ -15,7 +15,7 @@ namespace ChineseChessClient
     public partial class ChessClient
     {
         static ChessClient() {
-            Application.EnableVisualStyles();
+            Application.EnableVisualStyles() ;
             Application.SetCompatibleTextRenderingDefault(false);
         }
 
