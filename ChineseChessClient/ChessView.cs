@@ -67,6 +67,6 @@ namespace ChineseChessClient
 
         public virtual void FlipChessPiece(int pos, String imageName) { }
         public virtual void MoveChessPiece(int src, int dest) { }
-        
+
     }
 }

@@ -23,7 +23,7 @@ namespace ChineseChessClient
         public StrategicChessBoard()
         {
             InitializeComponent();
-            float y = 26, x = 28 ;
+            float y = 25, x = 28 ;
 
             for (int i = 0; i < 90; ++i)
             {
@@ -32,7 +32,7 @@ namespace ChineseChessClient
                 int scalerX = i % 9;
                 int scalerY = i / 9;
 
-                pictureBox.Location = new Point((int)(x + scalerX * 66), (int)(y + scalerY * 68.5));
+                pictureBox.Location = new Point((int)(x + scalerX * 64), (int)(y + scalerY * 65.5));
 
                 pictureBox.TabIndex = i;
                 pictureBox.Size = new Size(48, 48);

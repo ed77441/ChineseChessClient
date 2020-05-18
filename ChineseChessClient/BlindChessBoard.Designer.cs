@@ -37,7 +37,7 @@
             // 
             this.chessBoardBox.BackColor = System.Drawing.Color.White;
             this.chessBoardBox.Image = ((System.Drawing.Image)(resources.GetObject("chessBoardBox.Image")));
-            this.chessBoardBox.Location = new System.Drawing.Point(93, 43);
+            this.chessBoardBox.Location = new System.Drawing.Point(53, 83);
             this.chessBoardBox.Name = "chessBoardBox";
             this.chessBoardBox.Size = new System.Drawing.Size(671, 339);
             this.chessBoardBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -49,7 +49,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1113, 429);
+            this.ClientSize = new System.Drawing.Size(783, 453);
             this.Controls.Add(this.chessBoardBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;

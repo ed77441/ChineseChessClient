@@ -35,26 +35,25 @@
             // chessBoardBox
             // 
             this.chessBoardBox.Image = global::ChineseChessClient.Properties.Resources.fullChessboard;
-            this.chessBoardBox.Location = new System.Drawing.Point(12, 12);
+            this.chessBoardBox.Location = new System.Drawing.Point(3, 69);
             this.chessBoardBox.Name = "chessBoardBox";
-            this.chessBoardBox.Size = new System.Drawing.Size(852, 898);
+            this.chessBoardBox.Size = new System.Drawing.Size(829, 864);
             this.chessBoardBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.chessBoardBox.TabIndex = 0;
             this.chessBoardBox.TabStop = false;
             // 
-            // FullChessBoard
+            // StrategicChessBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1105, 921);
+            this.ClientSize = new System.Drawing.Size(836, 938);
             this.Controls.Add(this.chessBoardBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(1123, 968);
-            this.Name = "FullChessBoard";
+            this.Name = "StrategicChessBoard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "Strategic Chess Game";
             this.Controls.SetChildIndex(this.chessBoardBox, 0);
