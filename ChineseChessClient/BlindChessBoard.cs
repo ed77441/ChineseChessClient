@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace ChineseChessClient
 {
-    public partial class HalfChessBoard : ChessView
+    public partial class BlindChessBoard : ChessView
     {
         readonly PictureBox[] pictureBoxes = new PictureBox[32];
 
@@ -19,7 +19,7 @@ namespace ChineseChessClient
             return pictureBoxes;
         }
 
-        public HalfChessBoard()
+        public BlindChessBoard()
         {
             InitializeComponent();
 

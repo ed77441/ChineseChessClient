@@ -1,6 +1,6 @@
 ﻿namespace ChineseChessClient
 {
-    partial class FullChessBoard
+    partial class StrategicChessBoard
     {
         /// <summary>
         /// Required designer variable.
@@ -56,9 +56,11 @@
             this.MinimumSize = new System.Drawing.Size(1123, 968);
             this.Name = "FullChessBoard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
-            this.Text = "FullChessBoard";
+            this.Text = "Strategic Chess Game";
+            this.Controls.SetChildIndex(this.chessBoardBox, 0);
             ((System.ComponentModel.ISupportInitialize)(this.chessBoardBox)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

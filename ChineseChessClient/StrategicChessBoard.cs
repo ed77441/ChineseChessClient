@@ -11,7 +11,7 @@ using ChineseChessClient.Properties;
 
 namespace ChineseChessClient
 {
-    public partial class FullChessBoard : ChessView
+    public partial class StrategicChessBoard : ChessView
     {
         readonly PictureBox[] pictureBoxes = new PictureBox[90];
 
@@ -20,7 +20,7 @@ namespace ChineseChessClient
             return pictureBoxes;
         }
 
-        public FullChessBoard()
+        public StrategicChessBoard()
         {
             InitializeComponent();
             float y = 26, x = 28 ;

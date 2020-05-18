@@ -86,11 +86,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HalfChessBoard.cs">
+    <Compile Include="BlindChessBoard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HalfChessBoard.Designer.cs">
-      <DependentUpon>HalfChessBoard.cs</DependentUpon>
+    <Compile Include="BlindChessBoard.Designer.cs">
+      <DependentUpon>BlindChessBoard.cs</DependentUpon>
     </Compile>
     <Compile Include="ChessView.cs">
       <SubType>Form</SubType>
@@ -98,11 +98,11 @@
     <Compile Include="ChessView.Designer.cs">
       <DependentUpon>ChessView.cs</DependentUpon>
     </Compile>
-    <Compile Include="FullChessBoard.cs">
+    <Compile Include="StrategicChessBoard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FullChessBoard.Designer.cs">
-      <DependentUpon>FullChessBoard.cs</DependentUpon>
+    <Compile Include="StrategicChessBoard.Designer.cs">
+      <DependentUpon>StrategicChessBoard.cs</DependentUpon>
     </Compile>
     <Compile Include="UserEventHandler.cs" />
     <Compile Include="ServerEventHandler.cs" />
@@ -122,14 +122,14 @@
     </Compile>
     <Compile Include="ChessClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="HalfChessBoard.resx">
-      <DependentUpon>HalfChessBoard.cs</DependentUpon>
+    <EmbeddedResource Include="BlindChessBoard.resx">
+      <DependentUpon>BlindChessBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChessView.resx">
       <DependentUpon>ChessView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FullChessBoard.resx">
-      <DependentUpon>FullChessBoard.cs</DependentUpon>
+    <EmbeddedResource Include="StrategicChessBoard.resx">
+      <DependentUpon>StrategicChessBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

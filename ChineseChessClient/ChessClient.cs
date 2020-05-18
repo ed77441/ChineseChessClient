@@ -21,8 +21,8 @@ namespace ChineseChessClient
 
         private readonly Login login = new Login();
         private readonly Lobby lobby = new Lobby();
-        private readonly HalfChessBoard halfChessBoard = new HalfChessBoard();
-        private readonly FullChessBoard fullChessBoard = new FullChessBoard();
+        private readonly BlindChessBoard halfChessBoard = new BlindChessBoard();
+        private readonly StrategicChessBoard fullChessBoard = new StrategicChessBoard();
         private ChessView chessBoard = null;
         private String playerNameStr, playerIDStr;
         private Socket clientSocket = null;
