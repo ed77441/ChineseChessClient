@@ -28,16 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BlindChessBoard));
             this.chessBoardBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.chessBoardBox)).BeginInit();
             this.SuspendLayout();
             // 
             // chessBoardBox
             // 
-            this.chessBoardBox.BackColor = System.Drawing.Color.White;
-            this.chessBoardBox.Image = ((System.Drawing.Image)(resources.GetObject("chessBoardBox.Image")));
-            this.chessBoardBox.Location = new System.Drawing.Point(53, 83);
+            this.chessBoardBox.BackColor = System.Drawing.Color.Transparent;
+            this.chessBoardBox.Image = global::ChineseChessClient.Properties.Resources.half;
+            this.chessBoardBox.Location = new System.Drawing.Point(149, 96);
             this.chessBoardBox.Name = "chessBoardBox";
             this.chessBoardBox.Size = new System.Drawing.Size(671, 339);
             this.chessBoardBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -49,7 +48,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(783, 453);
+            this.BackgroundImage = global::ChineseChessClient.Properties.Resources.blindBackground;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(915, 463);
             this.Controls.Add(this.chessBoardBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;

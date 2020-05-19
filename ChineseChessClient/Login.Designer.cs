@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.connectButton = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.serverIPLabel = new System.Windows.Forms.Label();
             this.playerNameLabel = new System.Windows.Forms.Label();
             this.serverIP = new System.Windows.Forms.TextBox();
             this.playerName = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,17 +51,6 @@
             this.connectButton.Text = "CONNECT";
             this.connectButton.UseCompatibleTextRendering = true;
             this.connectButton.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Image = global::ChineseChessClient.Properties.Resources.login;
-            this.pictureBox1.Location = new System.Drawing.Point(54, 25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(167, 156);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
             // 
             // serverIPLabel
             // 
@@ -104,6 +93,17 @@
             this.playerName.Size = new System.Drawing.Size(205, 27);
             this.playerName.TabIndex = 8;
             this.playerName.Text = "DefaultUserName";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.Image = global::ChineseChessClient.Properties.Resources.login;
+            this.pictureBox1.Location = new System.Drawing.Point(54, 25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(167, 156);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
             // 
             // Login
             // 

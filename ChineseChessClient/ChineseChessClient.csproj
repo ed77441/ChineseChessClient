@@ -218,5 +218,20 @@
   <ItemGroup>
     <None Include="Resources\fullChessboard.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\full.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strategicBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\half.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blindBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chessIcon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -133,6 +133,16 @@ namespace ChineseChessClient.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap blindBackground {
+            get {
+                object obj = ResourceManager.GetObject("blindBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap captionBackground {
             get {
                 object obj = ResourceManager.GetObject("captionBackground", resourceCulture);
@@ -143,9 +153,9 @@ namespace ChineseChessClient.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap fullChessboard {
+        internal static System.Drawing.Bitmap full {
             get {
-                object obj = ResourceManager.GetObject("fullChessboard", resourceCulture);
+                object obj = ResourceManager.GetObject("full", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +173,9 @@ namespace ChineseChessClient.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap halfChessBoard {
+        internal static System.Drawing.Bitmap half {
             get {
-                object obj = ResourceManager.GetObject("halfChessBoard", resourceCulture);
+                object obj = ResourceManager.GetObject("half", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -256,6 +266,16 @@ namespace ChineseChessClient.Properties {
         internal static System.Drawing.Bitmap RED_6 {
             get {
                 object obj = ResourceManager.GetObject("RED_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap strategicBackground {
+            get {
+                object obj = ResourceManager.GetObject("strategicBackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
