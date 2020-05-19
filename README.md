@@ -16,12 +16,12 @@
 
 <div> 
   <h3>blind chess form</h3>
-  <img src="https://i.imgur.com/A8QObVx.png">
+  <img src="https://i.imgur.com/luHqXbA.png">
 </div>
 
 <div> 
   <h3>strategic chess from</h3>
-  <img src="https://i.imgur.com/ApLSzgx.png">
+  <img src="https://i.imgur.com/34Cboqv.png">
 </div>
 
 <h2>Instructions</h2>
