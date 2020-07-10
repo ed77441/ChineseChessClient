@@ -1,33 +1,42 @@
 # ChineseChessClient
-<p>This project is developed using .NET winform. </p>
-<p>This repo is client side code only, server side code please refer to another repo.</p>
 
-<h1>Demo</h1>
+This project is developed using `.NET winform`, final project of algorithm class
 
-<div> 
-  <h3>login form</h3>
-  <img src="https://i.imgur.com/EyaJFOa.png">
-</div>
+## Description
+* Client only focus on the view
+* Use `C#` async to get reply from server
+* Blind stands for blind chess, Strategic stands for strategic chess
 
-<div> 
-  <h3>lobby form</h3>
-  <img src="https://i.imgur.com/yBXWJLt.png">
-</div>
+## Demo
 
-<div> 
-  <h3>blind chess form</h3>
-  <img src="https://i.imgur.com/luHqXbA.png">
-</div>
+### Login 
+![Login](https://i.imgur.com/EyaJFOa.png)
 
-<div> 
-  <h3>strategic chess from</h3>
-  <img src="https://i.imgur.com/34Cboqv.png">
-</div>
+#### Notice
+* You can only use **alphabet letters** and **number** on name
+* Server ip can be configured at server side code
 
-<h2>Instructions</h2>
-<p>
-1. enter name and server ip:port to login to server.
-2. Click either blind or strategic to challenge people. (Only work if opponent's status is idle) <br/>
-3. Click on chess piece to move. If it's your turn, then it will show you what you just selected. <br/>
-4. Click forfeit button to surrender and quit the game.
-</p>
+### Lobby
+![Lobby](https://i.imgur.com/yBXWJLt.png)
+
+#### Notice
+* You issue a chanllenge to others only if they are in idle state
+* If someone issue a chanllenge to you, it will be automatically cancel
+
+### Blind chess game
+![Blind](https://i.imgur.com/luHqXbA.png)
+
+#### Notice
+* If there is only one color left, then it is considered to be game over
+* If there is no chess piece lost in 20 turn, then it is considered to be a draw
+* If there is no chess piece can defeat each other, then it is considered to be a draw
+* Click forfeit to end the game
+
+### Strategic chess game
+![Blind](https://i.imgur.com/34Cboqv.png)
+
+#### Notice
+* If one of the kind dies, then it is considered to be game over
+* If there is no chess piece lost in 20 turn, then it is considered to be a draw
+* Also you and your opponent's view will be opposite, that means chess board is rotated by 180 degree 
+* Click forfeit to end the game
