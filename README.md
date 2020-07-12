@@ -28,7 +28,7 @@ This project is developed using `.NET winform`, final project of algorithm class
 
 #### Notice
 * If there is only one color left, then it is considered to be game over
-* If there is no chess piece lost in 20 turn, then it is considered to be a draw
+* If there is no chess piece that isn't taken down in 20 turns, then it is considered to be a draw
 * If there is no chess piece can defeat each other, then it is considered to be a draw
 * Click forfeit to end the game
 
@@ -37,6 +37,6 @@ This project is developed using `.NET winform`, final project of algorithm class
 
 #### Notice
 * If one of the kind dies, then it is considered to be game over
-* If there is no chess piece lost in 20 turn, then it is considered to be a draw
+* If there is no chess piece that isn't taken down in 20 turns, then it is considered to be a draw
 * Also you and your opponent's view will be opposite, that means chess board is rotated by 180 degree 
 * Click forfeit to end the game
